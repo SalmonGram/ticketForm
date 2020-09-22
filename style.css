@@ -26,7 +26,9 @@ body {
     background-size: 100% 100%;
 }
 
-.crt>.camera {
+
+
+.crt > .camera {
     text-align: center;
     position: relative;
     top: -20px;
@@ -84,7 +86,9 @@ body {
     margin: 5px 0;
 }
 
-.formTop input, .formTop textarea, .formTop select {
+.formTop input,
+.formTop textarea,
+.formTop select {
     width: 300px;
 }
 
@@ -102,6 +106,7 @@ hr {
     margin: 15px;
     display: flex;
     justify-content: flex-end;
+
 }
 
 .btn {
@@ -147,4 +152,5 @@ hr {
         margin: 0 auto;
         font-size: .5rem;
     }
+    
 }
